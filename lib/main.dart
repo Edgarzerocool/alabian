@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           onPressed: (){
                             if(validacionEmail(email.text) && validacionPassword(password.text)){
                               Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => const catalogo()),);
+                                MaterialPageRoute(builder: (context) => catalogo()),);
                             }else{
                               mostrarAlerta();
                             }
@@ -121,7 +121,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             child: const Text("Registro de nuevo usuario"),
                             onPressed: (){
                               Navigator.push(context,
-                                MaterialPageRoute(builder: (context) => const registro()),);
+                                MaterialPageRoute(builder: (context) => registro()),);
                             },
                         ),
                       ),
